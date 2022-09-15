@@ -14,6 +14,8 @@ def adventure():
         direction = "West"
     
     
+    
+    
 
     
 def easy(name):
