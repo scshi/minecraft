@@ -13,11 +13,6 @@ def adventure():
     elif direction == "4":
         direction = "West"
     
-    
-    
-    
-
-    
 def easy(name):
     choice = int(input("""******CHOICE******
     1) You could go out trekking into the wilderness
