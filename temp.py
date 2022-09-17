@@ -4,6 +4,9 @@ def version189(name):
     #you will start with a basic base
     
     day = 0
+    hunger = 10
+    health = 10
+    inv = []
 
     again = True
     while again:
@@ -11,7 +14,9 @@ def version189(name):
         print("******DAY " + str(day) + "******")
 
         #after 40 days the difficulty goes up
-        if day < 40:
+        if day <= 2:
+            r.start(name)
+        elif day < 40:
             r.easy(name) 
         elif day < 80:
             r.intermediate()

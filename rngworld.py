@@ -13,6 +13,15 @@ def adventure():
     elif direction == "4":
         direction = "West"
     
+#gives a repeatable start
+def start(name):
+    choice = int(input("""******CHOICE******
+    1) Build house (Free)
+    2) Go out trekking"""))
+    if choice == 1:
+        print()
+        
+
 def easy(name):
     choice = int(input("""******CHOICE******
     1) You could go out trekking into the wilderness

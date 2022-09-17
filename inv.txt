@@ -1,0 +1,8 @@
+food
+wood
+stone
+iron
+gold
+wood_sword
+iron_sword
+gold_sword
